@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         password = findViewById(R.id.passw);
         button = findViewById(R.id.button);
 
+        MY_Detelst();
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -70,6 +71,13 @@ public class MainActivity extends AppCompatActivity {
         });
 
   }
+
+    private void MY_Detelst() {
+
+        Toast.makeText(this, "1.Ashadur Rahman\n2.Android App & Ios Development", Toast.LENGTH_SHORT).show();
+        
+    }
+
 
     private void ColorTextview(TextView textView,int...Color)
     {
